@@ -79,6 +79,7 @@ If you serve your own model, structured output is usually one request parameter 
 - [MarkItDown](https://github.com/microsoft/markitdown) - Lightweight conversion of office files, PDFs and more to Markdown for LLM input.
 - [Unstructured](https://github.com/Unstructured-IO/unstructured) - Partitions many file types into typed elements (titles, tables, list items) for pipelines.
 - [olmOCR](https://github.com/allenai/olmocr) - Linearizes PDFs into clean text with a fine-tuned VLM, built for large-scale dataset creation.
+- [DocStrange](https://github.com/NanoNets/docstrange) - PDFs, images and office files to Markdown, JSON or CSV with a 7B model, including schema-based field extraction; runs locally or as an API.
 - [Open Parse](https://github.com/Filimoa/open-parse) - Layout-aware chunking of PDFs that keeps headings, tables and sections together.
 - [Xberg](https://github.com/xberg-io/xberg) - Rust-core document extraction of text, metadata and tables with bindings for several languages (formerly Kreuzberg).
 
