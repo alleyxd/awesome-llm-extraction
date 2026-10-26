@@ -81,6 +81,7 @@ If you serve your own model, structured output is usually one request parameter 
 - [olmOCR](https://github.com/allenai/olmocr) - Linearizes PDFs into clean text with a fine-tuned VLM, built for large-scale dataset creation.
 - [DocStrange](https://github.com/NanoNets/docstrange) - PDFs, images and office files to Markdown, JSON or CSV with a 7B model, including schema-based field extraction; runs locally or as an API.
 - [Open Parse](https://github.com/Filimoa/open-parse) - Layout-aware chunking of PDFs that keeps headings, tables and sections together.
+- [deepdoctection](https://github.com/deepdoctection/deepdoctection) - Document AI pipelines: layout detection, table recognition and OCR, with many layout models from the Hugging Face Hub plugged in.
 - [Xberg](https://github.com/xberg-io/xberg) - Rust-core document extraction of text, metadata and tables with bindings for several languages (formerly Kreuzberg).
 
 ### OCR
@@ -95,6 +96,7 @@ If you serve your own model, structured output is usually one request parameter 
 Read the page image directly, which handles layouts and handwriting that break classic OCR.
 
 - [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) - Open VLM family with strong document, chart and OCR performance in several sizes.
+- [Chandra](https://github.com/datalab-to/chandra) - Datalab's OCR model: images and PDFs to HTML, Markdown or JSON with layout, including complex tables, forms and handwriting. Code is Apache-2.0; the weights have their own license.
 - [DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) - OCR model that compresses page images into few vision tokens for long documents.
 - [dots.ocr](https://github.com/studio-dots-ai/dots.ocr) - Single VLM for multilingual layout detection and content recognition.
 - [Zerox](https://github.com/getomni-ai/zerox) - Sends each page to a vision model and returns Markdown; works with hosted or local VLMs.
