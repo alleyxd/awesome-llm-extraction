@@ -98,6 +98,7 @@ Read the page image directly, which handles layouts and handwriting that break c
 - [Qwen3-VL](https://github.com/QwenLM/Qwen3-VL) - Open VLM family with strong document, chart and OCR performance in several sizes.
 - [Chandra](https://github.com/datalab-to/chandra) - Datalab's OCR model: images and PDFs to HTML, Markdown or JSON with layout, including complex tables, forms and handwriting. Code is Apache-2.0; the weights have their own license.
 - [DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) - OCR model that compresses page images into few vision tokens for long documents.
+- [Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) - Baidu's OCR model built on DeepSeek-OCR for very long documents: version 2 parses hundreds of pages in one pass with a fixed-size attention window. Runs on Transformers or SGLang.
 - [dots.ocr](https://github.com/studio-dots-ai/dots.ocr) - Single VLM for multilingual layout detection and content recognition.
 - [Zerox](https://github.com/getomni-ai/zerox) - Sends each page to a vision model and returns Markdown; works with hosted or local VLMs.
 
