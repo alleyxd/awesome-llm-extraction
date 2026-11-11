@@ -88,6 +88,7 @@ If you serve your own model, structured output is usually one request parameter 
 
 - [PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) - Full OCR toolkit with detection, recognition, layout and table parsing in many languages. Good default.
 - [Surya](https://github.com/datalab-to/surya) - OCR, layout analysis, reading order and table recognition in 90+ languages.
+- [Indra OCR](https://github.com/datalab-to/indra) - Datalab's 1M-parameter OCR model for CPU: PDFs and images to Markdown, text or JSON with layout boxes and reading order, in 80+ languages. Runs on ONNX Runtime, no GPU or PyTorch needed.
 - [docTR](https://github.com/mindee/doctr) - Text detection and recognition models with a simple Python API, on PyTorch or TensorFlow.
 - [Tesseract](https://github.com/tesseract-ocr/tesseract) - The classic open OCR engine: fast on clean printed text, weaker on complex layouts.
 
@@ -99,6 +100,7 @@ Read the page image directly, which handles layouts and handwriting that break c
 - [Chandra](https://github.com/datalab-to/chandra) - Datalab's OCR model: images and PDFs to HTML, Markdown or JSON with layout, including complex tables, forms and handwriting. Code is Apache-2.0; the weights have their own license.
 - [DeepSeek-OCR](https://github.com/deepseek-ai/DeepSeek-OCR) - OCR model that compresses page images into few vision tokens for long documents.
 - [Unlimited-OCR](https://github.com/baidu/Unlimited-OCR) - Baidu's OCR model built on DeepSeek-OCR for very long documents: version 2 parses hundreds of pages in one pass with a fixed-size attention window. Runs on Transformers or SGLang.
+- [MiniCPM-OCR](https://github.com/OpenBMB/MiniCPM-OCR) - OpenBMB's 1.3B document parsing model for text, tables, formulas and charts, with key information extraction. Runs on vLLM, SGLang, llama.cpp and Ollama.
 - [dots.ocr](https://github.com/studio-dots-ai/dots.ocr) - Single VLM for multilingual layout detection and content recognition.
 - [Zerox](https://github.com/getomni-ai/zerox) - Sends each page to a vision model and returns Markdown; works with hosted or local VLMs.
 
