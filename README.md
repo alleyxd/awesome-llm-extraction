@@ -57,6 +57,7 @@ The grammar engines that serving frameworks plug in. Start with whichever your s
 - [Guidance](https://github.com/guidance-ai/guidance) - Interleave prompts, generation and constraints in Python with fine control over each step.
 - [BAML](https://github.com/BoundaryML/baml) - Language for typed LLM functions with schema-aware parsing that repairs almost-valid output.
 - [Guardrails](https://github.com/guardrails-ai/guardrails) - Validators for LLM output (format, PII, toxicity, custom rules) that check and correct responses.
+- [json_repair](https://github.com/mangiucugna/json_repair) - Repairs malformed JSON from LLMs (missing quotes or commas, comments, stray prose, truncated output); a drop-in fallback for `json.loads()`.
 - [TypeChat](https://github.com/microsoft/TypeChat) - Uses TypeScript (or Python) type definitions as the schema for natural-language interfaces.
 - [DSPy](https://github.com/stanfordnlp/dspy) - Declarative typed signatures for LLM programs, with optimizers that tune prompts against a metric.
 
@@ -112,6 +113,7 @@ Read the page image directly, which handles layouts and handwriting that break c
 ### Low-level PDF access
 
 - [PyMuPDF](https://github.com/pymupdf/PyMuPDF) - Very fast PDF reading, rendering and text extraction (AGPL; check the license for commercial use).
+- [PDFOxide](https://github.com/yfedoseev/pdf_oxide) - Fast PDF text, image and Markdown extraction with a Rust core and bindings for Python and many other languages.
 
 ## Information extraction
 
