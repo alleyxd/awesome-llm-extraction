@@ -124,6 +124,7 @@ Read the page image directly, which handles layouts and handwriting that break c
 
 - [OmniDocBench](https://github.com/opendatalab/OmniDocBench) - Document parsing benchmark across page types with text, table, formula and reading-order metrics.
 - [Omni OCR Benchmark](https://github.com/getomni-ai/benchmark) - Compares OCR and VLM extraction accuracy on real documents with JSON field scoring.
+- [ParseBench](https://github.com/run-llama/ParseBench) - LlamaIndex's benchmark for document parsing that agents can rely on: real enterprise pages scored on text, formatting, tables, charts, layout and forms, with severity-aware metrics.
 - [JSONSchemaBench](https://github.com/epfl-dlab/jsonschemabench) - About 10K real-world JSON schemas for testing constrained decoding engines for coverage, speed and quality.
 - [SchemaTax](https://github.com/alleyxd/SchemaTax) - Study of when constrained JSON decoding costs accuracy, separating schema enforcement, visibility and field order on GSM8K, AG News and CoNLL-2003, with all 12,600 responses and a [paper](https://doi.org/10.5281/zenodo.23754532). *(maintainer's project)*
 - [CORD](https://github.com/clovaai/cord) - Receipt dataset with line items and totals, a standard test for receipt extraction.
