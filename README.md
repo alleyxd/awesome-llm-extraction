@@ -76,6 +76,7 @@ If you serve your own model, structured output is usually one request parameter 
 
 - [Docling](https://github.com/docling-project/docling) - PDF, DOCX, PPTX, HTML and images to Markdown or JSON with layout, tables and reading order. Good default.
 - [Marker](https://github.com/datalab-to/marker) - Fast, accurate PDF to Markdown and JSON, with optional LLM help for hard pages.
+- [OpenDataLoader PDF](https://github.com/opendataloader-project/opendataloader-pdf) - PDF to Markdown and JSON with layout analysis for RAG pipelines, plus auto-tagging toward accessible PDF/UA output.
 - [MinerU](https://github.com/opendatalab/MinerU) - Complex PDFs and office files to Markdown or JSON, strong on scientific papers and formulas.
 - [MarkItDown](https://github.com/microsoft/markitdown) - Lightweight conversion of office files, PDFs and more to Markdown for LLM input.
 - [Unstructured](https://github.com/Unstructured-IO/unstructured) - Partitions many file types into typed elements (titles, tables, list items) for pipelines.
@@ -114,6 +115,7 @@ Read the page image directly, which handles layouts and handwriting that break c
 
 - [PyMuPDF](https://github.com/pymupdf/PyMuPDF) - Very fast PDF reading, rendering and text extraction (AGPL; check the license for commercial use).
 - [PDFOxide](https://github.com/yfedoseev/pdf_oxide) - Fast PDF text, image and Markdown extraction with a Rust core and bindings for Python and many other languages.
+- [pdf-inspector](https://github.com/firecrawl/pdf-inspector) - Firecrawl's Rust library that tells text-based from scanned PDFs and extracts position-aware text locally, so only scanned pages need OCR.
 
 ## Information extraction
 
