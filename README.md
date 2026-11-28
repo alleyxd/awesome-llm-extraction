@@ -125,6 +125,7 @@ Read the page image directly, which handles layouts and handwriting that break c
 ## Benchmarks and datasets
 
 - [OmniDocBench](https://github.com/opendatalab/OmniDocBench) - Document parsing benchmark across page types with text, table, formula and reading-order metrics.
+- [PDF Table Traps](https://github.com/LydiaTools/pdf-table-traps) - Small synthetic PDF fixtures and explicit row/column checks for regression testing converted tables.
 - [Omni OCR Benchmark](https://github.com/getomni-ai/benchmark) - Compares OCR and VLM extraction accuracy on real documents with JSON field scoring.
 - [ParseBench](https://github.com/run-llama/ParseBench) - LlamaIndex's benchmark for document parsing that agents can rely on: real enterprise pages scored on text, formatting, tables, charts, layout and forms, with severity-aware metrics.
 - [JSONSchemaBench](https://github.com/epfl-dlab/jsonschemabench) - About 10K real-world JSON schemas for testing constrained decoding engines for coverage, speed and quality.
